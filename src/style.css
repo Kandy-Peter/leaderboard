@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background: url(./undraw_filter_re_sa16.svg) no-repeat right;
+  background: url(./images/undraw_filter_re_sa16.svg) no-repeat right;
 }
 
 h1 {
