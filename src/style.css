@@ -23,7 +23,7 @@ h1 {
 
 h3 {
   font-size: 28px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .container {
@@ -49,7 +49,7 @@ h3 {
   padding: 0 1.3rem;
   width: 100%;
   height: 80px;
-  background-color: #6C63FF;
+  background-color: #6c63ff;
 }
 
 .refresh-btn {
@@ -58,9 +58,9 @@ h3 {
 }
 
 .fa-sync-alt {
-  color: #6C63FF;
+  color: #6c63ff;
   font-size: 30px;
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 7px;
   border-radius: 50%;
 }
@@ -76,7 +76,7 @@ h3 {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background-color: #6C63FF;
+  background-color: #6c63ff;
 }
 
 .clm-score {
@@ -102,7 +102,7 @@ h3 {
 }
 
 .clm-score li:nth-child(odd) {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .score-form h3 {
@@ -128,13 +128,13 @@ h3 {
 .score-input,
 .user-input {
   width: 320px;
-  border-bottom: 4px solid#6C63FF;
+  border-bottom: 4px solid#6c63ff;
   padding-bottom: 0.3rem;
 }
 
 .fa-crown,
 .fa-user {
-  color: #6C63FF;
+  color: #6c63ff;
   font-size: 23px;
 }
 
@@ -147,9 +147,9 @@ h3 {
   width: 150px;
   height: 43px;
   margin-top: 30px;
-  background-color: #6C63FF;
+  background-color: #6c63ff;
   border: none;
   border-radius: 7px;
   font-size: 16px;
-  color: #ffffff;
+  color: #fff;
 }
