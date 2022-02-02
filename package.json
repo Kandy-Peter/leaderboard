@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "The leaderboard is a javascript web app that display scores from players. Teh players enter his name and his score the data will be displayed to the screen and thanks to leaderboard API it will be save the way that others can see the classification",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.5.1",
@@ -24,6 +26,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
+    "deploy": "gh-pages -d dist",
     "build": "webpack"
   },
   "repository": {

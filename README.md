@@ -6,7 +6,7 @@ The leaderboard is a javascript web app that display scores from players. Teh pl
 ![Screeshot](./src/images/Screenshot.png)
 
 ## see the project
-   here is the:  [live_Demo]()
+   here is the:  [live_Demo](https://kandy-peter.github.io/leaderboard/)
 
 ## Built With
 
