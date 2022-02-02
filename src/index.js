@@ -1,6 +1,6 @@
 import './style.css';
 
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/DbM1zGLPKaQ2TrDtrCVN/scores/';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ Mj0tcMVVFGk965t6FiUp/scores/';
 
 const player = document.getElementById('input-player');
 const score = document.getElementById('score');
@@ -45,5 +45,7 @@ document.querySelector('.refresh-btn').addEventListener('click', (e) => {
 document.querySelector('.button').addEventListener('click', (e) => {
   e.preventDefault();
   postData();
+  player.value = '';
+  score.value = '';
 });
 window.onload = () => getData();
