@@ -29,7 +29,8 @@ const getData = async () => {
   data.result.forEach((player, index) => {
     userList.innerHTML += `
           <li id="${index + 1}">
-            <p>${player.user}: <span>${player.score}</span></p>
+            <p>${index + 1} </p>
+            <p> ${player.user}: <span>${player.score}</span></p>
           </li>
       `;
   });
